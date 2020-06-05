@@ -1,0 +1,208 @@
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    height: 80vh;
+    background-image: url('Images/collection.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    
+}
+.top{
+    position: sticky;
+    top: 20px;
+}
+nav{
+    height: 70px;
+}
+nav ul > li > a{
+    height: 50px;
+    display: block;
+
+    line-height: 50px;
+}
+nav > ul{
+    margin-right: 100px;
+}
+
+#Services{
+    padding-right: 21px;
+    padding-left:21px ;
+}
+li > ul{
+    
+    position: relative;
+    top: 0px;
+    padding-left: 0;
+    
+}
+ul ul{
+    background-color: rgb(212, 211, 211);
+ display: none;
+ 
+ 
+
+}
+ul li:hover > ul{
+    display: block;
+    /* background-color: rgb(212, 211, 211); */
+}
+.li--link,.li--link:hover{
+    
+    color: white;
+}
+
+
+.li-sub-link,.li-sub-link:hover{
+    
+    
+    color: white;
+}
+body ul{
+    position: relative;
+
+}
+body ul li{
+    position: relative;
+    top: 100%;
+    
+}
+body ul ul{
+    position: absolute;
+    top: 100%;
+    
+
+}
+
+body ul ul li{
+    border-radius: 10px;
+    margin: 2px;
+    background-color: rgba(47, 46, 46, 0.637);
+    width: 120%;
+}
+body ul ul ul{
+    position: absolute;
+    left: 100%;
+    top: 0px;
+}
+body ul ul ul li{
+    border-radius: 10px;
+    margin: 2px;
+    background-color: rgba(47, 46, 46, 0.637);
+    width: 180%;
+}
+
+
+
+nav > li > ul{
+    position: relative;
+    left: 100%;
+    top: 0;
+}
+
+
+ul li a:hover > i{
+    
+    
+    color: white;
+    font-weight: bolder;
+}
+.collection-h{
+
+font-size: 50px;
+
+}
+#Collection{
+    padding-right: 40px;
+    /* padding-left:21px ; */
+}
+.fashion-h{
+
+font-size: 45px;
+
+}
+.category{
+    font-size: 30px;
+    color: #33691E;
+}
+footer{
+    width: 98.89%;
+}
+.main-footer{
+
+    height: 35vh;
+    width: 99%;
+    background-color: #F1F8E9;
+}
+.CopyRight{
+    background-color: #BDBDBD;
+    width: 99%;
+}
+.useful{
+    width: 50%;
+    margin-left: 10px;
+    padding: 4px 0px;
+}
+.buy{
+    color: gray;
+    width: 50%;
+    margin-left: 10px;
+}
+.buy:hover{
+    color: gray;
+}
+
+.icons{
+    width: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+footer .icons:hover{
+    background-color: #827717;
+    cursor: pointer;
+}
+.social~a{
+    margin: 0 10px;
+}
+.options{
+    display: none;
+    border: 1px solid rgb(61, 60, 60);
+    border-radius: 5px;
+padding: 2px;
+}
+.options-div{
+    /* line-height: 100px; */
+    vertical-align:middle;
+    float: right;
+    padding: 20px 5px;
+    
+}
+.options-div:hover{
+    cursor: pointer;
+
+}
+
+
+
+
+
+@media(max-width:1137px){
+   
+    .options{
+        display: block;
+        
+        
+    }
+
+    nav > ul li a{
+
+        display: none;
+    }
+    
+    nav{
+        padding: 0;
+    }
+
+}
